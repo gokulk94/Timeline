@@ -23,7 +23,13 @@ module.exports = {
   },
   browserify: {
     settings: {
-      transform: ['es2015', 'react']
+      transform: ['babelify'],
+      options : {
+        presets: ["es2015", "stage-0", "react"],
+        "plugins": [
+          ["transform-decorators-legacy"]
+        ]
+      }
     },
     src: src + '/js/index.jsx',
     dest: dest + '/js',

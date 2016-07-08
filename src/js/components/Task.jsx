@@ -12,7 +12,7 @@ export default React.createClass({
   },
 
   handleToggle(task) {
-    if (this.refs.checkbox.getDOMNode().checked) {
+    if (this.refs.checkbox.checked) {
       ActionCreator.completeTask(task);
     }
   },
