@@ -46,6 +46,7 @@
     "keymirror": "^0.1.1",
     "object-assign": "^4.1.0",
     "react": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "react-dom": "^0.14.8",
+    "react-router": "^2.0.0"
   }
 }
