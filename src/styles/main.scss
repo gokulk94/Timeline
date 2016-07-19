@@ -1,15 +1,30 @@
 @import "./normalize.css";
 
-$primary-color: green;
-
-h1 {
-  color: $primary-color;
+.search-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px
 }
 
-li.task {
-  list-style-type: none;
+.search-container--input {
+    width: 100%;
+    font-size: 34px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+}
 
-  label {
-    padding: 0 10px;
-  }
+form {
+    border-bottom: 1px solid gray;
+}
+
+.resultCard {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #aaa;
+    margin-bottom: 20px;
 }
