@@ -1,30 +1,23 @@
-@import "./normalize.css";
+@import 'partials/normalize';
+@import 'partials/theme';
+@import 'partials/mixins';
+@import 'partials/material-components';
 
 .search-container {
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 10px
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px
 }
 
 .search-container--input {
-    width: 100%;
-    font-size: 34px;
-    height: 50px;
-    outline: 0;
-    border: 0;
+  width: 100%;
+  font-size: 34px;
+  height: 50px;
+  outline: 0;
+  border: 0;
 }
 
 form {
-    border-bottom: 1px solid gray;
-}
-
-.resultCard {
-    width: 80%;
-    margin: auto;
-    padding: 30px;
-    box-sizing: border-box;
-    background-color: #fff;
-    box-shadow: 0 1px 2px #aaa;
-    margin-bottom: 20px;
+  border-bottom: 1px solid gray;
 }

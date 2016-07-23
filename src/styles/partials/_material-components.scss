@@ -1,0 +1,23 @@
+//To Do change colors to theme variables
+/*
+  card
+*/
+
+.card {
+  border-radius: 2px;
+  @include box-shadow(0, 1px, 2px, #aaa);
+  box-sizing: border-box;
+  font-family: $main-font;
+  margin: 10px;
+  position: relative;
+  .card-title {
+    font-size: 24px;
+    font-weight: 300;
+    &.activator {
+      cursor: pointer;
+    }
+  }
+  .card-content {
+    font-size: 14px;
+  }
+}
