@@ -22,7 +22,7 @@ const TodoStore = assign({}, BaseStore, {
     case Constants.ActionTypes.TASK_ADDED:
       const text = action.text.trim();
       if (text !== '') {
-              searchForText(text);
+        searchForText(text);
         TodoStore.emitChange();
       }
       break;

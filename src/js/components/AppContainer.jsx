@@ -5,7 +5,6 @@ import App from './App.jsx';
 
 export default class AppContainer extends React.Component {
   _onChange() {
-    
   }
 
   componentDidMount() {

@@ -14,7 +14,7 @@ export default class SearchContainer extends React.Component {
     return (
         <div className="search-container">
           <form onSubmit={this.handleSearch}>
-            <input className="search-container--input" 
+            <input className="search-container--input"
               placeholder="Search Timeline"
               ref="searchText"
               type="text"

@@ -1,16 +1,17 @@
 {
-	"parserOptions": {
-		"ecmaVersion": 6,
-		"sourceType": "module",
-		"ecmaFeatures": {
-			"jsx": true
+	'parserOptions': {
+		'ecmaVersion': 6,
+		'sourceType': 'module',
+		'ecmaFeatures': {
+			'jsx': true
 		}
 	},
-	"plugins": [
-    "react"
+	'plugins': [
+    'react'
   ],
-  "rules": {
-    "comma-dangle": [2, "never"],
+  'rules': {
+    'indent': ['error', 2],
+    'comma-dangle': [2, 'never'],
     'jsx-quotes': [2, 'prefer-double'],
     'react/display-name': [0, { ignoreTranspilerName: false }],
     'react/forbid-prop-types': [0, { forbid: ['any', 'array', 'object'] }],
